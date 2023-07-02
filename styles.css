@@ -1,0 +1,33 @@
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+.about-link {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+.about-link a {
+  border-radius: 4px;
+  padding: 20px 15px;
+  margin: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
