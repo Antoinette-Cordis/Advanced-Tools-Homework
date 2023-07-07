@@ -31,3 +31,9 @@ h3 {
   text-decoration: none;
   text-transform: capitalize;
 }
+.logo {
+  max-width: 100%;
+}
+.lesson {
+  display: inline;
+}
