@@ -37,7 +37,7 @@
           <div class="navbar-nav">
             <a class="nav-link" aria-current="page" href="#">Home</a>
             <a class="nav-link" href="about.html">About me</a>
-            <a class="nav-link" href="contact.html">Contact me</a>
+            <a class="nav-link" href="contact.html#contact">Contact me</a>
           </div>
         </div>
       </div>
@@ -48,15 +48,15 @@
       Front-end Developer based in Port Harcourt, Nigeria
     </h3>
     <div class="about-link">
-      <a href="about.html">About Me</a>
-      <a href="contact.html">Contact Me</a>
+      <a href="about.html" class="about-me">About Me</a>
+      <a href="contact.html#contact" class="contact-me">Contact Me</a>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-6 border">
+        <div class="col-sm-6 border">
         <form>
           <div>
-          <input type="text" placeholder="Type a City" class="w-100">
+          <input type="text" placeholder="Type a City" class="w-100" autofocus="on">
           <input type="submit" value="search" class="btn btn-primary"></div>
         </form>
       <div class="row">
@@ -96,25 +96,46 @@
             </ul>
           </div></div></div>
       
-        <div class="col-3 ms-5">
-        <img src="yoghurt.jpg" alt="" class="logo"></div>
+        <div class="col-sm-3 ms-5">
+        <img src="yoghurt.jpg" alt="" id="logo" class="img-fluid">
+        
+             <p>
+            Health Benefits of Eating Yoghurt Are:
+Improves Digestion:
+Consuming yoghurt every day, keeps our bowel movements regular and improves our body’s flora. It kills the harmful bacteria in the gut and makes our digestive system healthier.
+
+Yoghurt is also found to be effective in lactose intolerance, constipation, inflammatory bowel disease and infections caused by Helicobacter pylori bacteria.
+Natural Immunity Booster:
+Regular consumption of yoghurt enhances our immune system and protects our body from a variety of infections. [3]Yoghurt effectively fights against gastrointestinal infections, respiratory issues like common cold, flu and even cancer.
+          </p>
+        </div>
         <div class="col-2">
           <div class="row">
-            <div class="col">
-          <img src="images/yoga.jpg" alt="" class="yoga"></div>
+            <div class="col-sm">
+          <img src="images/yoga.jpg" alt="" id="yoga" class="img-fluid"></div>
           <div class="col">
-            <p class="lesson">Plank Pose
+            <p class="lesson">Plank Pose:
 A commonly seen exercise, plank helps build strength in the core, shoulders, arms and legs.
-
-Do it: Plank pose is good if you are looking to tone your abs and build strength in your upper body.
-Skip it: Avoid plank pose if you suffer from carpal tunnel syndrome. It can be hard on your wrists. You might also skip it or modify if you have low back pain.
-Modify: You can modify it by placing your knees on the floor.
-Be mindful: As you do a plank, imagine the back of your neck and spine lengthening.</p>
+Do it: 
+Skip it:
+</p>
           </div>
           </div>
         </div>
       </div>
+      </div></div>
+      <div class="container">
+      <div class="row">
+        <div class="col-sm-5 border mt-3">
+          <header class="text-primary p-3">WEATHER FORECAST</header>
+          <img src="images/weather app.jpg" alt="" class="weather-app">
+        </div>
+        <div class="col-sm-7 mt-3 p-4"></div>
+        <h1 class="text-center text-success">The Future Is Female</h1>
+        <img src="images/tech.jpg" alt="" class="img-fluid" id="tech">
+      </div>
       </div>
     </div>
+
   </body>
 </html>
